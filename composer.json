@@ -1,0 +1,27 @@
+{
+	"name": "pppp",
+	"description": "PPPP",
+	"version": "0.1.0",
+	"type": "wordpress-plugin",
+	"keywords": [],
+	"homepage": "https://github.com/moraleida/pppp/",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Ricardo Moraleida",
+			"email": "moraleida@gmail.com",
+			"homepage": "https://github.com/moraleida/",
+			"role": "Developer"
+		}
+	],
+    "minimum-stability": "dev",
+	"require": {
+		"php": ">=5.6"
+	},
+    "require-dev": {
+	    "antecedent/patchwork": "1.2.*",
+        "phpunit/phpunit"     : "*@stable",
+	    "brianium/paratest"   : "dev-master",
+        "10up/wp_mock"        : "dev-master"
+    }
+}
